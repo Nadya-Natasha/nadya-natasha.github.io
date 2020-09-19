@@ -1,0 +1,552 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+    --swiper-theme-color: #c20e1a !important;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background:#b6daf0 ;
+    color: #303a40;
+    font-family: 'Oswald', serif;
+}
+
+.text {
+    font-size: 1.3em;
+    padding: 1em;
+}
+
+.text__bold {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1em;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header img {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    height: 100%;
+}
+
+#upryazhka-pobedi {
+    position: absolute;
+    z-index: 2;
+    height: 80vh;
+    transition: 0.5s;
+    width: 80%;
+    top: 0;
+    
+}
+
+#houses {
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+   
+}
+
+
+#reindeer-team {
+    position: absolute;
+    z-index: 3;
+    height: 100%;
+}
+
+.thank-you {
+    color: #c20e1a;
+    font-size: 5em;
+    text-align: center;
+   align-self: center;
+   position: absolute;
+   width: 80%;
+    margin: 0 auto;
+    text-shadow: 1px 1px 2px white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+section {
+    margin-bottom: 5em;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5em;
+}
+
+
+
+
+
+
+h1,
+h2 {
+    font-size: 3em;
+    color: #c20e1a;
+    text-shadow: 1px 1px 2px white;
+    align-self: start;
+    
+    text-align: center;
+}
+
+.project-team h2 {
+    margin-bottom: 1em;
+}
+
+
+
+
+
+
+
+
+.route {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-bottom: 5em;
+}
+
+
+.history {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 5em;
+}
+
+.history-description {
+    width: 80vw;
+    margin-bottom: 1em;
+}
+
+.swiper-container {
+    
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-wrapper {
+    width: 100%;
+   display: flex;
+}
+
+.swiper-slide {
+    width: 100%;
+    display: flex;
+    /*flex-direction: row;
+    align-content: center;*/
+}
+
+.history figure {
+    width: 80vw;
+   
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.project-team {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-bottom: 5em;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    padding: 2em;
+    width: 60vw;
+    background-color: rgba(255,255,255, 0.5 );
+   border-radius: 5px;
+}
+
+.profile img {
+    width: 50%;
+}
+
+.profile-description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.profile-description .text,
+.profile-description .text__bold {
+    padding: 0.5em;
+}
+
+
+
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 5em;
+}
+
+.feedback-text {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+
+.feedback-formgroup {
+    width: 80%;
+}
+
+form {
+    border: 3px solid #e8e234;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    background-color: rgba(255,255,255, 0.5 );
+    border-radius: 5px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+input[type="text"],
+input[type="tel"] {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #303a40;
+    padding: 0.5em;
+    margin-right: 4%;
+    margin-bottom: 1em;
+    width: 48%;
+}
+
+textarea {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #303a40;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    width: 94%;
+    height: 5em;
+}
+
+input[type="submit"] {
+    background: #c20e1a;
+    color: white;
+    padding: 0.5em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    width: 30%;
+    margin: 0 auto;
+}
+
+input[type="file"] {
+    display: none;
+    
+}
+
+#select-file {
+    
+    font-size: inherit;
+    color: white;
+    background-color: #c20e1a;
+    width: 30%;
+    padding: 0.5em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+footer a {
+    color: #303a40;
+}
+
+footer a:hover {
+    color: #c20e1a;
+    text-decoration: underline #e8e234;
+}
+
+footer a:active {
+    color: #e8e234;
+}
+
+footer a:link {
+    color: #303a40;
+}
+
+
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+   width: 80%;
+   margin-bottom: 3em;
+}
+
+#vk-groups {
+    width: 50%;
+   
+}
+
+.join-us {
+    font-size: 2em;
+    width: 50%;
+   text-align: center;
+   color: #303a40;
+}
+
+.footer-legal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+@media screen and (max-width: 1025px){
+    #reindeer-team {
+        transform: scaleY(0.5);
+            }
+            #houses {
+                transform: scaleY(0.5);
+            }
+        
+            #upryazhka-pobedi {
+                transform: scaleY(0.5);
+            }
+}
+
+@media screen and (max-width: 601px) {
+    #reindeer-team {
+transform: scaleY(0.5);
+    }
+    #houses {
+        transform: scaleY(0.5);
+    }
+
+    #upryazhka-pobedi {
+        transform: scaleY(0.5);
+    }
+
+    .thank-you {
+        font-size: 2em;
+    }
+
+    .history figure img {
+        width: 100vw;
+    }
+
+    figcaption {
+        padding-left: 0.5em;
+    }
+
+    .history .swiper-button-next,
+    .history .swiper-button-prev {
+        display: none;
+    }
+
+    .profile {
+        flex-direction: column;
+    }
+
+    .profile img,
+    .profile-description {
+        width: 100%;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    input[type="text"],
+input[type="tel"] {
+    width: 94%;
+}
+
+input[type="submit"],
+#select-file {
+    width: 60%;
+    margin-bottom: 1em;
+}
+
+.footer-social {
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.join-us {
+    margin-bottom: 0.5em;
+}
+
+.footer-legal {
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width: 401px) {
+    body {
+        font-size: 1em;
+    }
+
+    h1,
+    h2 {
+        font-size: 2em;
+    }
+
+    .about,
+    .route,
+    .history,
+    .history-description,
+    .swiper-container,
+    .swiper-wrapper,
+    .swiper-slide,
+    figure,
+    .project-team,
+    .profile,
+    .profile-description,
+    .feedback,
+    .feedback-text,
+    footer,
+    .footer-social,
+    .footer-legal {
+        width: 100%;
+    }
+
+    .history figure img{
+        width: 100vw;
+        border-radius: 5px;
+    }
+
+    figcaption {
+        padding-left: 0.5em;
+    }
+
+    .history .swiper-button-next,
+    .history .swiper-button-prev {
+        display: none !important;
+    }
+
+    .profile-description .text,
+    .profile-description .text__bold{
+        font-size: 1em;
+        padding: 0.5em;
+    }
+
+    .join-us {
+        font-size: 1.5em;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0.8em;
+    }
+}
+    

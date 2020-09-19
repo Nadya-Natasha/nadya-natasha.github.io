@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Проект, посвященный подвигу оленно-транспортных батальонов в Великой Отечественной войне">
+    <meta name="keywords" content="оленно-транспортные батальоны, оленная армия, ненецкий автономный округ, нарьян-мар, великая отечественная война, финская война, корельский фронт, 31-я отдельная олене-лыжная бригада, оленеводы, год памяти и славы">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Упряжка Победы</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type = "text/javascript">
+       $(document).ready(function(){
+           $(window).scroll(function(){
+               if($(this).scrollTop()>100) {
+                   $("#upryazhka-pobedi").css({"opacity": "0"})
+               } else {
+                   $("#upryazhka-pobedi").css({"opacity": "1"})
+               }
+               console.log("sucsess");
+           })
+       })
+    </script>
+    
+</head>
+<body>
+
+    <header>
+        <!--<nav>
+            <a class="menu" href="#about">Проект «Упряжка Победы»</a>
+            <a class="menu" href="#route">Маршрут Упряжки</a>
+            <a class="menu" href="#history">Оленная Армия</a>
+            <a class="menu" href="#project-team">Команда проекта</a>
+            <a class="menu" href="#feedback">Сохраним память вместе</a>
+            <a class="menu" href="#contacts">Наши контакты</a>
+            <a class="menu" href="legal.pdf" target="_blank">Правовая информация</a>
+        </nav>-->
+        
+        <img src="img/houses.png" id="houses">
+        <img src="img/road1.png" id="reindeer-team">
+        <img src="img/upryazhka-pobedi.png" id="upryazhka-pobedi">
+    </header>
+
+   
+    <main>
+        <section data-aos="fade-up" class="about"><a name="about"></a>
+            <h1>Упряжка Победы</h1>
+            <p class="text">Проект «Упряжка Победы» стал победителем конкурса грантов для социально ориентированных некоммерческих организаций, осуществляющих деятельность в сфере культуры на территории Ненецкого автономного округа.</p>
+            <p class="text">Конкурс ежегодно проводит окружной Департамент образования, культуры и спорта по разным направлениям. В 2020 году приоритетным направлением стало «Народное творчество». На реализацию своей инициативы семейная родовая община коренных малочисленных народов Севера (ненцев) НАО «Мядекоця» (Маленький чум) получила один миллион рублей.</p>
+            <p class="text">Коллективы Этнокультурного центра НАО - детский ненецкий коллектив «Ханийко» (Дети Севера) и вокальная группа Народного ненецкого ансамбля «Хаяр» (Солнце) в юбилейный Год Победы устроят праздничный концерт в семи населённых пунктах Ненецкого автономного округа, покажут экспозицию «Оленная армия», изготовленную из ненецких кукол нухуко, за чашкой чая поговорят с сельчанами о героях-земляках, воевавших в оленно-транспортных батальонах. Итогом проекта станет документально-игровой фильм «Упряжка Победы».</p>
+        </section>
+        <section data-aos="fade-up" class="route"><a name="route"></a>
+            <h2>Маршрут упряжки</h2>
+            <div class="container">
+            <div class="route-map">
+                <img src="img/map.png">
+            </div>
+            <div class="route-description">
+                <p class="text">Летом 2020 года «культурный десант» проекта «Упряжка Победы» высадится в семи окружных населённых пунктах: Андег, Каменка, Красное, Нельмин-Нос, Оксино, Тельвиска и Хонгурей.</p>
+            </div>
+            </div>
+        </section>
+
+        <section data-aos="fade-up" class="history"><a name="history"></a>
+            <h2>Оленная армия</h2>
+            
+            <div class="history-description">
+                <p class="text">В ноябре 1941 года из ненецкой тундры вместе с оленеводами на Карельский фронт отправились 6 тысяч их верных рогатых помощников. Олени вывезли с линии фронта и из тыла противника 10142 раненых солдата, доставили к переднему краю 8 тысяч бойцов и 17 тысяч тонн боеприпасов.</p>
+                <p class="text">«Упряжка Победы» поможет жителям сёл и деревень Ненецкого округа вспомнить этих скромных героев, вставших на защиту Родины в далёкие военные годы, найти фотографии и личные вещи бойцов Оленной армии, рассказать историю их жизни и подвига, а также передать эти воспоминания потомкам.</p>
+            </div>
+            
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <figure>
+                                 <img src="img/history.jpg">
+                                 <figcaption>«Олень Яша на войне». Автор фото: Евгений Халдей. 1941 год. </figcaption>
+                            </figure>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure>
+                                 <img src="img/history1.jpg">
+                                 <figcaption>На фронт. 1941. <br>Фото из фондов Мурманского областного краеведческого музея</figcaption>
+                            </figure>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure>
+                                <img src="img/history2.jpg">
+                                <figcaption>Пехота атакует при поддержке оленьих упряжек. 1942. Карельский фронт.<br> Фото из фондов Мурманского областного краеведческого музея</figcaption>
+                            </figure>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure>
+                                <img src="img/history3.jpg">
+                                <figcaption>Фотокопия «Моряки Северного флота доставляют военный груз на оленях. 1942-1943 гг.».<br> Фотограф Диамент Р., из фондов НКМ (КП НВФ-4105/25)</figcaption>
+                            </figure>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure>
+                                <img src="img/history4.jpg">
+                                <figcaption>Фотокопия «Перед вылетом». <br>Фотограф Диамент Р. , из фондов НКМ (КП НВФ-4105/16)</figcaption>
+                            </figure>
+                        </div>    
+                        <div class="swiper-slide">
+                            <figure>
+                                    <img src="img/history6.jpg">
+                                    <figcaption>Группа разведчиков части командира Васильева на оленьих упряжках направляется в тыл противника.1941. Северный фронт <br> Автор Зельма Г.А. </figcaption>
+                            </figure>
+                        </div>
+                        <div class="swiper-slide">
+                                <figure>
+                                    <img src="img/history7.jpg">
+                                    <figcaption>Упряжка оленей эвакуирует раненых. <br>Фото С. Цейтлин, 1942 г.</figcaption>
+                                </figure>
+                        </div>
+                    </div>
+                       
+            
+                         
+                          <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    
+                 </div>
+        </section>
+
+
+        <section data-aos="fade-up" class="project-team"><a name="project-team"></a>
+            <h2>Команда проекта</h2>
+            
+        
+  <div class="swiper-container">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide">
+        <div class="profile">
+        <img src="img/veronika-taleeva.jpg">
+        <div class="profile-description">
+            <p class="text__bold">Руководитель проекта – Талеева Вероника Ивановна</p>
+            <p class="text">Председатель семейной родовой общины «Мядекоця» (Маленький чум).</p>
+            <p class="text">Организатор проекта «Уроки предков» по культуре ненецкого народа для школьников и студентов Нарьян-Мара.</p>
+            <p class="text">Руководитель детской ненецкой группы «Ханийко», хормейстер Народного ненецкого ансамбля песни и танца «Хаяр» Этнокультурного центра НАО.</p>
+        </div>
+        </div>
+          </div>
+      
+          <div class="swiper-slide">
+        <div class="profile">
+        <img src="img/yulia-taleeva.jpg">
+        <div class="profile-description">
+            <p class="text__bold">Координатор проекта – Талеева Юлия Григорьевна</p>
+            <p class="text">Участница ненецкого театра «Илебц» (Жизнь) Этнокультурного центра НАО, организатор городской интеллектуальной игры «Ибета' ты» (Умный олень) для студентов Нарьян-Мара.</p>
+            <p class="text">Специалист по связям с общественностью МКУ «Управление городского хозяйства Нарьян-Мара».</p>
+        </div>
+    </div>
+          </div>
+      
+          <div class="swiper-slide">
+        <div class="profile">
+          <img src="img/hanijko.jpg">
+          <div class="profile-description">
+             <p class="text__bold">Детская ненецкая группа «Ханийко» (Дети Севера)</p>
+            <p class="text">Cоздана в 2015 году</p>
+            <p class="text">Дети в возрасте 5-13 лет поют ненецкие песни, изучают ненецкие танцы, показывают зрителям театральные постановки по сказкам народов Крайнего Севера и вокально-хореографические зарисовки на стихи ненецких поэтов.</p>
+            <p class="text">Руководитель Талеева Вероника Ивановна.</p>
+        </div>
+        </div>
+          </div>
+    
+          <div class="swiper-slide">
+        <div class="profile">
+        <img src="img/vocal-group.jpg">
+        <div class="profile-description">
+            <p class="text__bold">Вокальная группа Народного ненецкого ансамбля «Хаяр» (Солнце)</p>
+            <p class="text">Ансамбль «Хаяр» - один из старейших коллективов художественной самодеятельности на Крайнем Севере, история которого начинается с сентября 1962 года.</p>
+            <p class="text">В репертуаре коллектива бережно хранятся лучшие образцы вокального искусства, отражающие самобытную культуру тундровых ненцев, проживающих на территории Ненецкого автономного округа.</p>
+            <p class="text">Хормейстер ансамбля «Хаяр» Талеева Вероника Ивановна.</p>
+        </div>
+        </div>
+          </div>
+     
+          <div class="swiper-slide">
+        <div class="profile">
+        <img src="img/sergey-nikulin.jpg">
+        <div class="profile-description">
+            <p class="text__bold">Сценарист и режиссер-постановщик проекта – Никулин Сергей Константинович</p>
+            <p class="text">Автор документальных фильмов «Люблю свой край дальний» о творчестве Василия Ледкова, «Мы лирику храним у сердца свято» о творчестве Алексея Пичкова, «Визула ю» (Быстрая речка) о культуре народа коми и многих других документальных фильмов.</p>
+            <p class="text">Режиссёр Ненецкого театра «Илебц» (Жизнь) Этнокультурного центра НАО</p>
+        </div>
+        </div>
+        </div>
+      
+        <div class="swiper-slide">
+        <div class="profile">
+        <img src="img/yurij-arteev.jpg">
+        <div class="profile-description">
+            <p class="text__bold">Оператор-монтажёр проекта – Артеев Юрий Алексеевич</p>
+            <p class="text">Индивидуальный предприниматель в области предоставления фото и видео услуг, художник компьютерной графики.</p>
+            <p class="text">Имеет большой опыт работы на региональных телевизионных каналах: ТК «Север» и ТК «Поморье».</p>
+        </div>
+        </div>
+        </div>
+    
+        <div class="swiper-slide">
+        <div class="profile">
+        <img src="img/galina-arteeva.jpg">
+        <div class="profile-description">
+            <p class="text__bold">Мастер проекта – Артеева Галина Анатольевна</p>
+            <p class="text">Мастер декоративно-прикладного творчества.</p>
+            <p class="text">Автор экспозиции «Оленно-транспортные батальоны», созданной с использованием ненецких кукол нухуко.</p>
+        </div>
+        </div>
+        </div>
+
+    </div>
+                       
+            
+    
+     <!-- Add Arrows -->
+   <div class="swiper-button-next"></div>
+   <div class="swiper-button-prev"></div>
+
+</div>
+     
+      
+   
+</section>
+        <section data-aos="fade-up" class="feedback"><a name="feedback"></a>
+            <div class="feedback-text">
+            <p class="text__bold" style="color: #c20e1a">Уважаемые друзья!</p>
+            <p class="text">Мы создали для Вас площадку для сбора информации об участниках оленно-транспoртных батальонов в годы Великой отечественной войны. Это могут быть портреты, текстовые документы и видео — рассказ о Ваших героях, фотографии их жён и детей, личных вещей. Любая информация будет очень ценной для нас. Силами волонтёров Ваши материалы будут оформлены в видеоролик, который Вы сможете скачать себе и передать своим потомкам. Сохраним память вместе!</p>
+            </div>
+            <div class="feedback-formgroup">
+                <form action="mail.php" method="POST" enctype="multipart/form-data" id='form'>
+                    
+                    <div class="form-row">
+                    <input id="name" type="text" name="name" placeholder="Ваше имя">
+                    <input id="phone" type="tel" name="phone" placeholder="Контактный номер">
+                    </div>
+                    <textarea id ="message" name="message" placeholder="Ваше сообщение"></textarea>
+                    <div class="form-row">
+                        <label for="upload" id="select-file">Выберите файл</label>
+                    <input type="file" id="upload" name="upload">
+                    <input type="submit">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section data-aos="fade-up" class="contacts"><a name="contacts"></a></section>
+    </main>
+    <footer data-aos="fade-up">
+        <div class="footer-social">
+            <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+            <div id="vk_groups"></div>
+            <script type="text/javascript">VK.Widgets.Group("vk_groups", {mode: 3, no_cover: 1, color1: 'FFF', color2: '260101', color3: '260101'}, 194472728);</script>
+            <div class="join-us"><a href="https://vk.com/upryazhka_pobedy">Присоединяйтесь к нашей группе во Вконтакте!</a> </div>
+        </div>
+        <div class="footer-legal">
+        <a href="legal.pdf" target="_blank">Правовая информация</a>
+        <p class="copyright">&copy; Ненецкий автономный округ 2020 год</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init( {
+        duration: 2000,
+    });
+  </script>
+
+
+    <script type="text/javascript">
+     let bg = document.getElementById("bg");
+     let road = document.getElementById("road");
+     let houses = document.getElementById("houses");
+     let reindeerTeam = document.getElementById("reindeer-team");
+     let upryazhkaPobedi = document.getElementById("upryazhka-pobedi");
+
+     window.addEventListener('scroll', function(){
+         var value = window.scrollY;
+
+         reindeerTeam.style.top = -value + 0.15 + "px";
+         houses.style.top = -value + 0.15 + "px";
+         upryazhkaPobedi.style.top = value + 1 +'px';
+         
+     })
+    </script>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+     <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+      
+  </script>
+</body>
+</html>
